@@ -143,17 +143,17 @@ Created new window in existing browser session.
 
 > 笔记：许多人使用 Jupyter 作为本地的计算环境，但它也可以部署到服务器上远程访问。这里不做介绍，如果需要的话，鼓励读者自行到网上学习。
 
-![&#x56FE;2-1 Jupyter notebook&#x542F;&#x52A8;&#x9875;&#x9762;](http://upload-images.jianshu.io/upload_images/7178691-c76c4f40777d3ef1.png?imageMogr2/auto-orient/strip|imageView2/2/w/1240)
+![2.0.ipython.png](https://github.com/JackieMium/py4ds_2nd_zh/raw/master/assets/chp2/2.0.ipython.png)
 
 要新建一个 notebook，点击按钮 New，选择“Python3”或“conda\[默认项 \]”。如果是第一次，点击空格，输入一行 Python 代码。然后按 Shift-Enter 执行。
 
-![&#x56FE;2-2 Jupyter&#x65 B0;notebook&#x9875;&#x9762;](http://upload-images.jianshu.io/upload_images/7178691-86a6813291ead445.png?imageMogr2/auto-orient/strip|imageView2/2/w/1240)
+![2.0.ipython2.png](https://github.com/JackieMium/py4ds_2nd_zh/raw/master/assets/chp2/2.0.ipython2.png)
 
 当保存 notebook 时（File 目录下的 Save and Checkpoint），会创建一个后缀名为 `.ipynb` 的文件。这是一个自包含文件格式，包含当前笔记本中的所有内容（包括所有已评估的代码输出）。可以被其它 Jupyter 用户加载和编辑。要加载存在的 notebook，把它放到启动 notebook 进程的相同目录内。你可以用本书的示例代码练习，见图 2-3。
 
 虽然 Jupyter notebook 和 IPython shell 使用起来不同，本章中几乎所有的命令和工具都可以通用。
 
-![&#x56FE;2-3 Jupyter&#x67E5;&#x770 B;&#x4E00;&#x4E2A;&#x5 B58;&#x5728;&#x7684;notebook&#x7684;&#x9875;&#x9762;](http://upload-images.jianshu.io/upload_images/7178691-bc9a0b4c30363747.png?imageMogr2/auto-orient/strip|imageView2/2/w/1240)
+![2.0.ipython3.png](https://github.com/JackieMium/py4ds_2nd_zh/raw/master/assets/chp2/2.0.ipython3.png)
 
 ### Tab 补全
 
@@ -210,7 +210,7 @@ datasets/movielens/ratings.dat   datasets/movielens/users.dat
 
 另外，tab 补全可以补全函数的关键词参数（包括等于号 =）。见图 2-4。
 
-![&#x56FE;2-4 Jupyter notebook&#x4E2D;&#x81EA;&#x52A8;&#x8865;&#x5168;&#x51FD;&#x6570;&#x5173;&#x952E;&#x8 BCD;](http://upload-images.jianshu.io/upload_images/7178691-8188b0386238c16a.png?imageMogr2/auto-orient/strip|imageView2/2/w/1240)
+![2.0.ipython4.png](https://github.com/JackieMium/py4ds_2nd_zh/raw/master/assets/chp2/2.0.ipython4.png)
 
 后面会仔细地学习函数。
 
@@ -402,9 +402,9 @@ Pasting code; enter '--' alone on the line to stop or use Ctrl-D.
 
 IPython 有许多键盘快捷键进行导航提示（类似 Emacs 文本编辑器或 UNIX bash Shell）和交互 shell 的历史命令。表 2-1 总结了常见的快捷键。图 2-5 展示了一部分，如移动光标。
 
-![&#x56FE;2-5 IPython shell&#x4E2D;&#x4E00;&#x4E9 B;&#x5FEB;&#x6377;&#x952E;&#x7684;&#x8 BF4;&#x660E;](http://upload-images.jianshu.io/upload_images/7178691-9ed3866ea25c11f8.png?imageMogr2/auto-orient/strip|imageView2/2/w/1240)
+![2.0.ipython4.1.png](https://github.com/JackieMium/py4ds_2nd_zh/raw/master/assets/chp2/2.0.ipython4.1.png)
 
-![&#x8868;2-1 IPython&#x7684;&#x6807;&#x51C6;&#x5FEB;&#x6377;&#x952E;](http://upload-images.jianshu.io/upload_images/7178691-e179f5ea00e50691.png?imageMogr2/auto-orient/strip|imageView2/2/w/1240)
+![2.0.ipython5.png](https://github.com/JackieMium/py4ds_2nd_zh/raw/master/assets/chp2/2.0.ipython5.png)
 
 Jupyter notebooks 有另外一套庞大的快捷键。因为它的快捷键比 IPython 的变化快，建议你参阅 Jupyter notebook 的帮助文档。
 
@@ -472,7 +472,7 @@ Out[24]: '/home/wesm/code/pydata-book'
 
 IPython 的文档可以在 shell 中打开，我建议你用 `%quickref` 或 `%magic` 学习下所有特殊命令。表 2-2 列出了一些可以提高生产率的交互计算和 Python 开发的 IPython 指令。
 
-![&#x8868;2-2 &#x4E00;&#x4E9 B;&#x5E38;&#x7528;&#x7684;IPython&#x9 B54;&#x672F;&#x547D;&#x4EE4;](http://upload-images.jianshu.io/upload_images/7178691-c72b11add9b8ccf8.png?imageMogr2/auto-orient/strip|imageView2/2/w/1240)
+![2.0.ipython6.png](https://github.com/JackieMium/py4ds_2nd_zh/raw/master/assets/chp2/2.0.ipython6.png)
 
 ### 集成 Matplotlib
 
@@ -491,7 +491,7 @@ Using matplotlib backend: Qt4Agg
 In [26]: %matplotlib inline
 ```
 
-![&#x56FE;2-6 Jupyter&#x884C;&#x5185;matplotlib&#x4F5C;&#x56FE;](http://upload-images.jianshu.io/upload_images/7178691-3ab3738a92a15486.png?imageMogr2/auto-orient/strip|imageView2/2/w/1240)
+![2.0.ipython7.png](https://github.com/JackieMium/py4ds_2nd_zh/raw/master/assets/chp2/2.0.ipython7.png)
 
 ## 2.3 Python 语法基础
 
@@ -594,7 +594,7 @@ In [11]: b
 Out[11]: [1, 2, 3, 4]
 ```
 
-![&#x56FE;2-7 &#x5 BF9;&#x540C;&#x4E00;&#x5 BF9;&#x8C61;&#x7684;&#x53CC;&#x91CD;&#x5F15;&#x7528;](http://upload-images.jianshu.io/upload_images/7178691-3e3a8c6b9c5040fc.png?imageMogr2/auto-orient/strip|imageView2/2/w/1240)
+![2.0.ipython8.png](https://github.com/JackieMium/py4ds_2nd_zh/raw/master/assets/chp2/2.0.ipython8.png)
 
 理解 Python 的引用的含义，数据是何时、如何、为何复制的，是非常重要的。尤其是当你用 Python 处理大的数据集时。
 
@@ -830,7 +830,7 @@ In [42]: a is None
 Out[42]: True
 ```
 
-![&#x8868;2-3 &#x4E8C;&#x5143;&#x8FD0;&#x7 B97;&#x7 B26;](http://upload-images.jianshu.io/upload_images/7178691-9fb5f25b33166acf.png?imageMogr2/auto-orient/strip|imageView2/2/w/1240)
+![2.1.png](https://github.com/JackieMium/py4ds_2nd_zh/raw/master/assets/chp2/2.1.png)
 
 ### 可变与不可变对象
 
@@ -864,7 +864,7 @@ TypeError: 'tuple' object does not support item assignment
 
 Python 的标准库中有一些内建的类型，用于处理数值数据、字符串、布尔值，和日期时间。这些单值类型被称为标量类型，本书中称其为标量。表 2-4 列出了主要的标量。日期和时间处理会另外讨论，因为它们是标准库的 `datetime` 模块提供的。
 
-![&#x8868;2-4 Python&#x7684;&#x6807;&#x91CF;](http://upload-images.jianshu.io/upload_images/7178691-27a30ac3e7d262a1.png?imageMogr2/auto-orient/strip|imageView2/2/w/1240)
+![2.2.png](https://github.com/JackieMium/py4ds_2nd_zh/raw/master/assets/chp2/2.2.png)
 
 ### 数值类型
 
@@ -1198,7 +1198,7 @@ Out[109]: datetime.datetime(2009, 10, 31, 0, 0)
 
 表 2-5 列出了所有的格式化命令。
 
-![&#x8868;2-5 Datetime&#x683C;&#x5F0F;&#x5316;&#x6307;&#x4EE4;&#xFF08;&#x4E0E;ISO C89&#x517C;&#x5 BB9;&#xFF09;](http://upload-images.jianshu.io/upload_images/7178691-100f9a20c1536553.png?imageMogr2/auto-orient/strip|imageView2/2/w/1240)
+![2.3.datetime](https://github.com/JackieMium/py4ds_2nd_zh/raw/master/assets/chp2/2.3.png)
 
 当你聚类或对时间序列进行分组，替换 datetimes 的 time 字段有时会很有用。例如，用 0 替换分和秒：
 
@@ -1223,7 +1223,7 @@ In [114]: type(delta)
 Out[114]: datetime.timedelta
 ```
 
-结果 `timedelta(17, 7179)` 指明了 `timedelta` 将 17 天、7179 秒的编码方式。
+结果 `timedelta(17, 7179)` 指明了 `timedelta` 将 17 天、7179 秒（17 天 + 7179 秒）的编码方式。
 
 将 `timedelta` 添加到 `datetime`，会产生一个新的偏移 `datetime`：
 
