@@ -219,7 +219,7 @@ Out[44]: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 
 
-![python_dataTypes](https://github.com/JackieMium/py4ds_2nd_zh/raw/master/assets/chap3/3.0.png)
+![python_dataTypes](https://github.com/JackieMium/py4ds_2nd_zh/raw/master/assets/chp3/3.0.png)
 
 图片来源：[Python 基础数据类型](https://pythoncaff.com/articles/30/python-basic-data-type) 。
 
@@ -419,7 +419,7 @@ Out[80]: [6, 3, 5, 6]
 
 需要一段时间来熟悉使用切片，尤其是当你之前学的是 R 或 MATLAB。图 3-1 展示了正整数和负整数的切片。在图中，指数标示在边缘以表明切片是在哪里开始哪里结束的。
 
-![图 3-1 Python 切片演示](https://github.com/JackieMium/py4ds_2nd_zh/assets/chp3/3.1.png)
+![图 3-1 Python 切片演示](https://github.com/JackieMium/py4ds_2nd_zh/raw/master/assets/chp3/3.1.png)
 
 在第二个冒号后面使用 `step`，可以隔一个取一个元素：
 
@@ -1309,7 +1309,7 @@ S ['Steven']
 
 表 3-2 中列出了一些我经常用到的 itertools 函数。建议参阅 Python 官方文档，进一步学习。
 
-![表 3-2 一些有用的 itertools 函数](https://github.com/JackieMium/py4ds_2nd_zh/raw/master/assets/chap3/3.3.png)
+![表 3-2 一些有用的 itertools 函数](https://github.com/JackieMium/py4ds_2nd_zh/raw/master/assets/chp3/3.3.png)
 
 ## 错误和异常处理
 
@@ -1510,7 +1510,7 @@ In [212]: with open(path) as f:
 
 如果输入 f =open(path,'w')，就会有一个新文件被创建在 examples/segismundo.txt，并覆盖掉该位置原来的任何数据。另外有一个 x 文件模式，它可以创建可写的文件，但是如果文件路径存在，就无法创建。表 3-3 列出了所有的读 / 写模式。
 
-![表 3-3 Python 的文件模式](https://github.com/JackieMium/py4ds_2nd_zh/raw/master/assets/chap3/3.4.png)
+![表 3-3 Python 的文件模式](https://github.com/JackieMium/py4ds_2nd_zh/raw/master/assets/chp3/3.4.png)
 
 对于可读文件，一些常用的方法是 read、seek 和 tell。read 会从文件返回字符。字符的内容是由文件的编码决定的（如 UTF-8），如果是二进制模式打开的就是原始字节：
 
@@ -1588,7 +1588,7 @@ Out[227]:
 
 表 3-4 列出了一些最常用的文件方法。
 
-![表 3-4 Python 重要的文件方法或属性](https://github.com/JackieMium/py4ds_2nd_zh/raw/master/assets/chap3/3.5.png)
+![表 3-4 Python 重要的文件方法或属性](https://github.com/JackieMium/py4ds_2nd_zh/raw/master/assets/chp3/3.5.png)
 
 ## 文件的字节和 Unicode
 
